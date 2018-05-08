@@ -1,8 +1,9 @@
 package com.in28minutes.springboot.web.springbootfirstwebapplication.services;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service //notacao para servico
 public class LoginService {
 	
 	public boolean isValidUser (String userId, String password) {
